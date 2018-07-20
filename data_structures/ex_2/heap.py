@@ -17,7 +17,7 @@ class Heap:
     self.size -= 1
     self.storage.pop()
     self._sift_down(1)
-    return retval 
+    return retval
 
   def get_max(self):
     return self.storage[1]
@@ -43,3 +43,23 @@ class Heap:
       return index * 2
     else:
       return index * 2 if self.storage[index * 2] > self.storage[index * 2 + 1] else index * 2 + 1
+
+
+
+'''
+Navjot's heapsort
+def heapsort(arr):
+  heap = Heap()
+  for each in arr:
+    heap.insert(each)
+
+  while heap.size > 0:
+    max_val = heap.storage[1]
+    heap.storage[1] = heap.storage[heap.size]
+    heap.storage[heap.size] = max_val
+    heap.size -= 1
+    heap._sift_down(1)
+
+  return heap.storage[1:]
+  '''
+  
