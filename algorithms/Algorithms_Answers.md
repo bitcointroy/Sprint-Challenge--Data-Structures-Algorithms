@@ -6,6 +6,16 @@ b. O(log n). We're halving the elements we're searching through on each pass. Th
 
 c. REALLY BAD O(64 \* (sqrt(n)/2)), which I think is in the red zone on the big-O cheatsheet http://bigocheatsheet.com/
 
+c. per the lecture, O(sqrt(n))
+
+d. O(n log n) Incrementing by \*2 makes it log n, but then counting to n in each step makes it n log n.
+
+e. per lecture, O(n^3)
+
+f. O(n)
+
+g. O(n)
+
 ## Exercise II
 
 a. Pseudocode:
