@@ -1,5 +1,11 @@
 ## Exercise I
 
+a. This would be O(n). On the first pass, a is set to n squared, and in n-1 additional passes, a will equal n cubed.
+
+b. O(log n). We're halving the elements we're searching through on each pass. This makes it log(2) of n. If we were able to cut the field to a tenth, it would be log(10) of n.
+
+c. REALLY BAD O(64 \* (sqrt(n)/2)), which I think is in the red zone on the big-O cheatsheet http://bigocheatsheet.com/
+
 ## Exercise II
 
 a. Pseudocode:
